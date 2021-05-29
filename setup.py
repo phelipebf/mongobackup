@@ -46,7 +46,7 @@ setup(
     url="https://github.com/phelipebf/mongobackup",
     install_requires=["boto >= 2.25"],
     classifiers=[
-        "Development Status :: 5 - Beta",
+        "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
