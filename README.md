@@ -1,18 +1,18 @@
-Mongo Backup
+Mongo Backup Tools
 ========
-Mongo backup is designed to handle backing up and restoring a mongo database locally and on s3.
+Mongo Backup Tools (a fork from [mongobackup](https://github.com/phelipebf/mongobackup)) is designed to handle backing up and restoring a mongo database locally and on s3.
 
 It can be installed by pip:
 
 ```
-pip install mongobackup
+pip install mongobackuptools
 ```
 
 Example usage follows.
 
 ```
 # To do a local backup
-from mongobackup import backup
+from mongobackuptools import backup
 backup("mongo_user", "mongo_password", "/var/backups/mongo/")
 
 ```

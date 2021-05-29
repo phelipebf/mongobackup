@@ -25,8 +25,8 @@ THE SOFTWARE.
 @author: Eli Jones
 """
 
-from mongobackup.backups import backup, restore
-from mongobackup.s3 import s3_download, s3_list
+from mongobackuptools.backups import backup, restore
+from mongobackuptools.s3 import s3_download, s3_list
 
 __all__ = (
     "backup",

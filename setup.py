@@ -23,8 +23,8 @@ THE SOFTWARE.
 
 @author: Zags (Benjamin Zagorsky)
 @author: Eli Jones
+@author: Phil Smith
 """
-
 
 import sys
 
@@ -35,23 +35,23 @@ if sys.version < '2.5':
     sys.exit(1)
 
 setup(
-    name = "mongobackup",
-    version = "0.2.4",
-    packages = find_packages(),
-    
-    author = "Zagaran, Inc.",
-    description = "A library to manage mongo backups and restoration from backup",
-    license = "MIT",
-    keywords = "mongo mongodb database backup",
-    url = "https://github.com/zagaran/mongobackup",
-    install_requires = ["boto >= 2.25"],
-    classifiers = [
-                 "Development Status :: 4 - Beta",
-                 "License :: OSI Approved :: MIT License",
-                 "Operating System :: MacOS :: MacOS X",
-                 "Operating System :: Microsoft :: Windows",
-                 "Operating System :: POSIX",
-                 "Programming Language :: Python",
-                 "Topic :: Database",
-                 ],
+    name="mongobackuptools",
+    version="0.5",
+    packages=find_packages(),
+
+    author="Phil Smith",
+    description="A library to manage mongo backups and restoration from backup",
+    license="MIT",
+    keywords="mongo mongodb database backup",
+    url="https://github.com/phelipebf/mongobackup",
+    install_requires=["boto >= 2.25"],
+    classifiers=[
+        "Development Status :: 5 - Beta",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+        "Operating System :: POSIX",
+        "Programming Language :: Python",
+        "Topic :: Database",
+    ],
 )
